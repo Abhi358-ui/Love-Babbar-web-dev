@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <div>
+        <p id="fpara">Hello jii</p>
+
+        <a  id="fanchor" href="https://www.codehelp.in">Click here</a>
+    </div> -->
+
+
+
+    <div id="wrapper">
+        <p id="fpara">First <span>first span</span> para</p>
+        <p id="spara"> Second <span>second span</span> para</p>
+        <p id="tpara"> Third <span>third span</span>para</p>
+     <p id="fopara">  Fourth <span>fourth span </span>para</p>
+    </div>
+
+    <script>
+
+
+        // function changeText(event) {
+        //     console.log(event);
+        //     let fapara = document.getElementById('fpara')
+        //     fapara.innerText = "hello abhi";
+
+        // }
+
+        // let fapara = document.getElementById('fpara')
+        // fapara.addEventListener("click",changeText);
+
+        // fapara.removeEventListener('click',changeText);
+
+
+
+
+
+
+        // kisi bhi event ka default value rokna 
+
+        // let fa = document.getElementById('fanchor');
+
+        // fa.addEventListener("click", function(event){
+        //     event.preventDefault();
+        //     fa.textContent="click done bhai";
+        // })
+
+
+
+
+
+
+
+    //     let para = document.querySelectorAll('p');
+
+        function clickPara(event){
+            if(event.target.nodeName==='SPAN')
+        {
+            alert("you have clicked "+ event.target.textContent);
+        }
+        }
+
+    //     for(let i=0; i<para.length; i++)
+    // {
+    //     let paras = para[i];
+    //     paras.addEventListener('click',clickPara)
+    // }
+
+    let mydiv = document.getElementById('wrapper');
+
+    mydiv.addEventListener('click',clickPara)
+
+
+    </script>
+</body>
+
+</html>

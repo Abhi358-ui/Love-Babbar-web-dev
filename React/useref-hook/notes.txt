@@ -1,0 +1,3 @@
+
+useref se bna variable hr rerender pr apna ui update nhi karta ha 
+

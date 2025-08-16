@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="fdiv" style="background-color: aqua; padding: 2rem;">
+        First div 
+        <p id="fpara" style="background-color: green; padding: 1rem;" class="abhi shek">
+            First para
+        </p>
+
+        <div id="sdiv" style="background-color: yellow; padding: 1.2rem;" class="sdivv sdive">
+            Second div
+
+            <p id="spara" style="background-color: orange; padding: 0.8rem;">
+                Second para
+            </p>
+        </div>
+    </div>
+
+    <script>
+        let eleSpara = document.getElementById('spara');
+        eleSpara.style.backgroundColor="red";
+        eleSpara.style.fontFamily="arial";
+
+
+
+        // Multiline css style changed
+
+        let secDiv = document.getElementById('sdiv');
+        secDiv.style.cssText= "background-color:blue; padding:1rem; color:#fff;"
+
+
+        // create a class using js
+        let fdiv = document.getElementById('fdiv');
+        fdiv.setAttribute('class','divClass')
+        console.log(fdiv);
+
+        fdiv.setAttribute('style','background-color:gold;');
+
+
+        // to see the all class list a element
+        fpara.classList
+
+
+        // to add a class in the element
+        fpara.classList.add
+
+
+        fpara.classList.contains("classname") // true or false
+
+
+    </script>
+    
+</body>
+</html>

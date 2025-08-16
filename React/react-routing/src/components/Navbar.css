@@ -1,0 +1,14 @@
+ul{
+    list-style-type: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgoldenrod;
+    padding: 12px;
+}
+
+
+.active-link{
+    border: 2px solid red;
+}

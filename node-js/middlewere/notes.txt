@@ -1,0 +1,17 @@
+
+==> middleware kuch nhi hota bs ek function hota ha jab database pr koi request aata ha to response ki processing start hone se pahle middleware chalta ha matlab request aur response ke bich me hota ha ye aur ye res aur req dono ko access kar sakta ha
+
+==> middleware ka use krke aap log authorization authenticate authrised validate kr sakte ha 
+
+==> middleware ke 3 type hote ha 
+1. Application level middleware jise hm bnate ha validation authenticate krne ke liye
+2. Built in middleware jo pahle se bne hue ha jaise express.json()
+3. third party middleware jise hme install krke use kr sakte ha
+4. error handing middleware 
+5. router level middleware wo hote ha jb hm kisi route ko alg shift kr dete ha to us shift kiye hue route pr jab hm route lagate ha tab ise route level middleware kahte ha 
+
+
+
+
+**************  Route specific middleware *********************
+

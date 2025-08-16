@@ -1,0 +1,19 @@
+(1) Network : some device that is connected to the each other and is system is called Network
+
+(A)LAN-Local area Network
+(B)MAN-Metro politian Area Network
+(C)WAN-Wide area Network
+
+(2)Internet : It is global system is called Internet and Network of network in which biloin of device is connected to each other
+
+www-Wide area Network __ it is a service of the Internet
+
+(3)IP Address: it is a unique identification of a device like Address
+
+(4) Browser: Browser is a tool acces to data in the Internet like photo,docs,video,etc
+
+(5) Browser engine: Browser engine is tool to run to specfic program like chorm, etc
+
+(6) Client/Server: client is user to request to server to specific task or data and server response to client the specific task
+
+(7) 

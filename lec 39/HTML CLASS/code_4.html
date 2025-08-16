@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px gray;
+            background-color: white;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+        }
+        .total {
+            font-weight: bold;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Online Shopping Cart</h2>
+
+        <!-- Customer Details Using List -->
+        <h3>Customer Details:</h3>
+        <ul>
+            <li><strong>Name:</strong> Alex Johnson</li>
+            <li><strong>Email:</strong> alex.johnson@example.com</li>
+            <li><strong>Address:</strong> 123 Main Street, New York, USA</li>
+            <li><strong>Phone:</strong> +1 234 567 890</li>
+        </ul>
+
+        <!-- Purchased Products Using Table -->
+        <h3>Purchased Products:</h3>
+        <table>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price per Unit</th>
+                <th>Total Price</th>
+            </tr>
+            <tr>
+                <td>Wireless Headphones</td>
+                <td>1</td>
+                <td>$50</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Smartphone Case</td>
+                <td>2</td>
+                <td>$15</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Laptop Stand</td>
+                <td>1</td>
+                <td>$40</td>
+                <td>$40</td>
+            </tr>
+            <tr class="total">
+                <td colspan="3"><strong>Total Amount</strong></td>
+                <td><strong>$120</strong></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

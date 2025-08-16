@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!--! first part -->
+
+    <!-- <div id="fdiv">
+        <p>This is my first <span> Text
+            </span>
+        </p>
+        <p>This is my second paragraph</p>
+    </div> -->
+
+    <!-- ! second part -->
+
+    <!-- <p id="fpara">First para</p>
+    <h1 id="fpara2"> First heading</h1> 
+
+
+
+    <!-- ! third part -->
+
+    <div>
+        hello jiii
+
+        <div id="mydiv">
+            <p>first</p>
+            <h1>Second</h1>
+            <p>third</p>
+        </div>
+    </div>
+
+    
+    <script>
+
+        // ===>> second part
+
+        // let a = document.getElementById("fpara2");
+
+        // a.innerHTML='<p>Hello jii</p>';
+
+        // console.log(a.innerText);
+
+
+
+
+
+
+        // ====> first part
+
+        // let x = document.getElementById("fdiv");
+
+        // console.log(x.innerText);
+        // console.log(x.textContent);
+
+        // let fheading = document.createElement('h1');
+        // console.log(fheading);
+        // fheading.textContent="hello bhai";
+
+        // let bodyText = document.querySelector('body');
+        // bodyText.appendChild(fheading);
+
+
+
+
+
+
+
+        // third part
+
+
+        let myDiv = document.querySelector("#mydiv")
+        // console.log(myDiv);
+
+        let newElement = document.createElement('span');
+        newElement.textContent="This is a abhishek kumar";
+
+        // myDiv.insertAdjacentElement('beforebegin',newElement)
+
+        // myDiv.insertAdjacentElement('beforeend',newElement)
+
+        myDiv.insertAdjacentElement('afterbegin',newElement)
+
+        let child = document.querySelector('h1');
+
+
+        myDiv.removeChild(child)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // promise is a object that is used to handle the asynconous code handle returning values
+
+        // let fPromise = new Promise((resolve,reject) =>{
+                
+
+        //     function sayName (){
+        //     console.log("my name is abhi");
+        // }
+
+        // setTimeout(sayName,10000);
+
+        // resolve(1);
+
+        // });
+
+
+
+
+
+
+        let promise = new Promise((resolve,reject) =>{
+
+            let success = false;
+            if(success){
+                resolve(10);
+            }
+            else{
+                reject(-1);
+            }
+        });
+
+
+        // promise chainig
+
+        promise.then((message)=>{
+            console.log("first message "+message);
+            return 20;
+        }).then((message)=>{
+            console.log("second message "+message);
+            return 30;
+        }).then((message)=>{
+            console.log("third message "+message);
+        }).catch((error)=>{
+            console.error(error);
+        }).finally((message)=>{
+            console.log("this is final keyword");
+        })
+
+
+
+
+        // promise.then((message)=>{
+        //     console.log("then ka message "+message);
+        // }).catch((error)=>{
+        //     console.log("Error "+error);
+        // })
+        
+
+
+    </script>
+</body>
+</html>

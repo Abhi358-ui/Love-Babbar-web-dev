@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+
+    <style>
+        .container {
+            width: 100vw;
+            height: 1000px;
+            background-color: #a1c9d0;
+            background-image: linear-gradient(147deg, #34a8a6 0%, #2c81b7 74%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+
+        .box {
+            width: 250px;
+            height: 370px;
+            border-radius: 25px;
+            background-color:rgb(203, 212, 216);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            transition: all;
+        }
+
+        .box img {
+            height: 200px;
+            width: 220px;
+            padding: 10px;
+            margin-top: 30px;
+            border: 2px double red;
+            border-radius: 20px;
+            /* border: black solid 2px; */
+            box-shadow: 0 4px 8px 0 rgba(44, 16, 207, 0.2);
+        }
+
+        h2 {
+            font-size: 15px;
+            padding-left: 20px;
+            font-weight: bold;
+            text-shadow: 2px 2px 3px rgb(32, 75, 176);
+
+        }
+
+        p {
+            font-size: 10px;
+            padding-left: 20px;
+            padding-bottom: 22px;
+        }
+
+        .box img:hover{
+            transform: scale(1.2);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+            <img src="./th.jpg" alt="">
+
+            <h2>Improve your front end skills by building projects</h2>
+
+            <p>Scan the QR Code to visit Front End Mentor and take your coding skills to next level.</p>
+
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

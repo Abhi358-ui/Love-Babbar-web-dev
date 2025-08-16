@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event loop</title>
+</head>
+<body>
+    
+    
+
+
+    <script>
+        // all the code that run at the same time is called synchronus code
+
+        // console.log("hello");
+
+        // const myName= ()=>{
+        //     console.log("my name is abhishek kumar roy");
+        // }
+        // myName();
+
+        // console.log("end");
+
+
+
+        // all the code not execute at the same time is called asynchronus code
+
+        console.log("hello");
+
+        const myName= ()=>{
+            console.log("my name is abhishek kumar roy");
+        }
+        setTimeout(myName,5000);
+
+        console.log("end");
+    </script>
+
+</body>
+</html>

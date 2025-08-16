@@ -1,0 +1,392 @@
+<!--Table in depth-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        * {
+            color: rgb(168, 17, 120);
+            background-color: rgb(246, 244, 237);
+            font-family: Arial, sans-serif;
+            border-color: rgb(240, 25, 25);
+        }
+
+        body{
+            display: grid;
+            place-items: center;
+        }
+
+        tbody{
+            height: auto;
+            color: blue;
+            
+        }
+
+        table{
+            width: 90%;
+        }
+
+        td{
+            text-align: center;
+            height: 23px;
+        }
+
+        td:hover{
+            background-color: rgb(168, 236, 108);
+            /* transform: scale(1.3); */
+            box-shadow: 10px 4px 10px black;
+            transition: all 1s linear;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+    <!-- <table border="1px">
+        <thead>
+            <th>Student id</th>
+            <th>Student name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td colspan="3">Ab</td>
+
+            </tr>
+            <tr>
+                <td>1343</td>
+                <td>Abhi</td>
+                <td>Male</td>
+                <td rowspan="3">19</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>Abhi</td>
+                <td>Male</td>
+                
+            </tr>
+            <tr>
+                <td>124</td>
+                <td>Abhi</td>
+                <td>Male</td>
+                
+            </tr>
+        </tbody>
+
+    </table> -->
+
+
+    <!-- second table -->
+    <!-- <table border="1">
+        <tr>
+            <td>column 1</td>
+            <td>column 2</td>
+            <td>column 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 cell 1</td>
+            <td>Row 1 cell 2</td>
+            <td>Row 1 cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 cell 2</td>
+            <td>Row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 cell 1</td>
+        </tr>
+     </table> -->
+
+
+    <!-- table 3 -->
+
+    <!-- <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Name </th>
+            <th>Position </th>
+            <th>Salary</th>
+            <th>Type</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill gates</td>
+                <td>Founder microsoft</td>
+                <td>$51000</td>
+                <td rowspan="4">Company founder</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Steve jobs</td>
+                <td>Fonder apple</td>
+                <td></td>$1200></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Larry page</td>
+                <td>Founder google</td>
+                <td>$1100</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Mark zukeberg</td>
+                <td>Founder facebook</td>
+                <td>$1300</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total expense</td>
+                <td>$4600</td>
+            </tr>
+        </tfoot>
+     </table> -->
+
+
+    <!-- table 4 -->
+
+    <!-- <table border="1">
+        <caption>Road Department table</caption>
+        <thead>
+            <td>Country</td>
+            <td>State</td>
+            <td>City</td>
+            <td>Street</td>
+            <td>Male</td>
+            <td>Female</td>
+            <td>Others</td>
+
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerela</td>
+                <td rowspan="2">Cochin</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Main street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Trivendrum</td>
+                <td>Guru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>TVK street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharsthre</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krish street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>Main street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>Billa street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>Cross street</td>
+                <td>1000</td>></td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+
+        </tbody>
+     </table> -->
+
+
+
+    <!-- Time table of my college -->
+
+    <table border="1">
+        <caption>TIME TABLE </caption>
+
+
+        <tbody>
+
+            <tr>
+                <td rowspan="3" colspan="2">
+                    <pre>Jagannath
+    University</pre>
+                </td>
+                <td colspan="5">JAGANNATH UNIVERSITY</td>
+                <td colspan="2">Chaksu Campus</td>
+            </tr>
+
+
+            <tr>
+                <td colspan="5">DEPARTMENT OF ENGINEERING AND TECHNOLOGY</td>
+                <td>Effective from</td>
+                <td>02.09.2024</td>
+            </tr>
+            <tr>
+                <td colspan="5">TIME TABLE (AUGUST-JANUARY,2024)</td>
+                <td colspan="2">Room no :F101</td>
+            </tr>
+            <tr>
+                <td colspan="3">Program name: BCA</td>
+                <td colspan="2">Semester: 3</td>
+                <td colspan="2">Section : B</td>
+                <td colspan="2">Batch :2023-26</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>I</td>
+                <td>II</td>
+                <td>III</td>
+                <td>IV</td>
+                <td>V</td>
+                <td>VI</td>
+                <td>VII</td>
+                <td>VIII</td>
+            </tr>
+
+            <tr>
+                <td>Date/Time</td>
+                <td>9:20-10:15</td>
+                <td>10:15-11:10</td>
+                <td>11:10-12:05</td>
+                <td>12:05-12:55</td>
+                <td>12:55-01:45</td>
+                <td>1:45-2:35</td>
+                <td>2:35-3:25</td>
+                <td>3:25-4:15</td>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td colspan="2">
+                    <pre>DSA Lab B1(RKS)
+DBMS Lab B2(ST)
+                </pre>
+                </td>
+                <td>CN(CG)</td>
+                <td rowspan="5">LUNCH</td>
+                <td>DSA(RKS)</td>
+                <td>DBMS(ST)</td>
+                <td>DMS(AK)</td>
+                <td>VAC</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>DSA(RKS)</td>
+                <td>CS(CM)</td>
+                <td>DBMS(ST)</td>
+                <td>SMO(SS)</td>
+                <td>SMO(SS)</td>
+                <td>LIB</td>
+                <td>
+                    <pre>Remedial
+classes/
+activities        </pre>
+                </td>
+            </tr>
+
+            <tr style="height: 80px;">
+                <td>Wednesday</td>
+                <td>DMS(AK)</td>
+                <td>DBMS(ST)</td>
+                <td>DSA(RKS)</td>
+                <td>CS(CM)</td>
+                <td>CN(CG)</td>
+                <td>LIB</td>
+                <td>VAC</td>
+            </tr>
+
+            <tr>
+                <td>Thrusday</td>
+                <td>CS(CM)</td>
+                <td>CN(CG)</td>
+                <td>DSA(RKS)</td>
+                <td>DBMS(ST)</td>
+                <td>DMS(AK)</td>
+                <td>LIB</td>
+                <td>
+                    <PRE>Remedial
+classes/
+activities        </PRE>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">
+                    <pre>DSA Lab B2(RKS)
+DBMS Lab B1(ST)
+                </pre>
+                </td>
+                <td>LIB</td>
+                <td>CN(CG)</td>
+                <td>DMS(AK)</td>
+                <td>CS(CM)</td>
+                <td>MOOC</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

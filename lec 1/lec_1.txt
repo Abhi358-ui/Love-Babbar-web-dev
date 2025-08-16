@@ -1,0 +1,29 @@
+******Web Development*********
+
+--> it is a system in which photo doc that is access by internet
+
+--> it is technique that is used to create website and application
+
+Website--> it is web page in which static content,read only format
+
+web application--> it is a web page in which dynamic content in nature
+
+
+--> Layer of web 
+
+(1)Front end--> see the UI apperance is called the front end -  html,css,javascript
+
+(2)Back end--> Brain of your web page and here define the logic of web page
+
+(3)Database--> the data is store in the database
+
+-->MERN
+
+M - MongoDB
+E - Express js
+R - React
+N - Nodejs
+
+
+
+
